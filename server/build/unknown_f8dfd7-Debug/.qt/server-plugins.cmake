@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_PLUGINS /opt/homebrew/share/qt/plugins/networkinformation/libqscnetworkreachability.dylib;/opt/homebrew/share/qt/plugins/tls/libqsecuretransportbackend.dylib;/opt/homebrew/share/qt/plugins/tls/libqopensslbackend.dylib)
