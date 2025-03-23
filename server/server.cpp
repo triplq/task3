@@ -18,17 +18,20 @@ void Server::incomingConnection(qintptr socketDescriptor)
     connect(socket, &QTcpSocket::disconnected, this, &Server::slotClientDisonnected);
 
     if(socket)
+    {
         qDebug() << "Connected\n";
+
+        for(auto& socket : sockets)
+        {
+            socket->write("One more client is connected");
+        }
+
+        sockets.append(socket);
+    }
 
     else
         qDebug() << "Not connected";
 
-    for(auto& socket : sockets)
-    {
-        socket->write("One more client is connected");
-    }
-
-    sockets.append(socket);
 }
 
 void Server::slotReadyRead()

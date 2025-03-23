@@ -21,16 +21,26 @@ void Client::slotDisconnected()
 
 void Client::slotReadyRead()
 {
-    QByteArray data = socket->readAll();
+    if(socket->state() == QTcpSocket::ConnectedState)
+    {
+        QByteArray data = socket->readAll();
 
-    qDebug() << "Message from server: " << data << '\n';
+        qDebug() << "Message from server: " << data << '\n';
+    }
+    else
+        qDebug() << "Issues with connection\n";
 }
 
 void Client::sendToServer(const QString &message)
 {
-    socket->write(message.toUtf8());
+    if(socket->state() == QTcpSocket::ConnectedState)
+    {
+        socket->write(message.toUtf8());
 
-    qDebug() << "Message is send\n";
+        qDebug() << "Message is send\n";
+    }
+    else
+        qDebug() << "Issues with connection\n";
 }
 
 void Client::connectToServer(const QString &host, quint16 port)
