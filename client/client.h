@@ -5,18 +5,19 @@
 
 class Client : public QObject
 {
-    Q_OBJECT
-private:
-    QTcpSocket* socket;
 public:
     Client();
     void sendToServer(const QString& message);
     void connectToServer(const QString& host, quint16 port);
 
-public slots:
+private:
+    QTcpSocket* socket;
+
+private slots:
     void slotReadyRead();
-    void slotOnConnected();
-    void slotOnDisconnected();
+    void slotConnected();
+    void slotDisconnected();
+
 };
 
 #endif // CLIENT_H

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/alexey/client/build/unknown_f8dfd7-Debug"
+			"value" : "/Users/alexey/server/build/unknown_f8dfd7-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "31"
+			"value" : "29"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "5"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/bin/cmake"
+			"value" : "/Applications/CMake.app/Contents/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/bin/cpack"
+			"value" : "/Applications/CMake.app/Contents/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/bin/ctest"
+			"value" : "/Applications/CMake.app/Contents/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alexey/client/build/unknown_f8dfd7-Debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/alexey/server/build/unknown_f8dfd7-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/alexey/client"
+			"value" : "/Users/alexey/server"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/alexey/client/build/unknown_f8dfd7-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "/Users/alexey/server/build/unknown_f8dfd7-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1067,7 +1067,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "client"
+			"value" : "server"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/share/cmake"
+			"value" : "/Applications/CMake.app/Contents/share/cmake-3.29"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1738,18 +1738,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "QT_FEATURE_brotli",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: brotli (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_cborstreamreader",
 			"properties" : 
 			[
@@ -2062,36 +2050,12 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_dnslookup",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: dnslookup (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_doubleconversion",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: doubleconversion (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_dtls",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: dtls (from target Qt6::Network)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -2278,18 +2242,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_getifaddrs",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: getifaddrs (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_glib",
 			"properties" : 
 			[
@@ -2314,18 +2266,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "QT_FEATURE_gssapi",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: gssapi (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_gui",
 			"properties" : 
 			[
@@ -2344,18 +2284,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: hijricalendar (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_http",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: http (from target Qt6::Network)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -2408,18 +2336,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_ipv6ifname",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: ipv6ifname (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_islamiccivilcalendar",
@@ -2494,36 +2410,12 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_libproxy",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: libproxy (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "QT_FEATURE_library",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: library (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_libresolv",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: libresolv (from target Qt6::Network)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -2564,30 +2456,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_linux_netlink",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: linux_netlink (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_localserver",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: localserver (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_localtime_r",
@@ -2722,54 +2590,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_networkdiskcache",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: networkdiskcache (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_networkinterface",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: networkinterface (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_networklistmanager",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: networklistmanager (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_networkproxy",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: networkproxy (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_no_direct_extern_access",
 			"properties" : 
 			[
@@ -2780,18 +2600,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_ocsp",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: ocsp (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_openssl",
@@ -3070,30 +2878,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_publicsuffix_qt",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: publicsuffix_qt (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_publicsuffix_system",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: publicsuffix_system (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "QT_FEATURE_qqnx_pps",
 			"properties" : 
 			[
@@ -3214,60 +2998,12 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "QT_FEATURE_res_setservers",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: res_setservers (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_rpath",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: rpath (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_schannel",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: schannel (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_sctp",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: sctp (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_securetransport",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: securetransport (from target Qt6::Network)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -3394,18 +3130,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "QT_FEATURE_socks5",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: socks5 (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_sortfilterproxymodel",
 			"properties" : 
 			[
@@ -3472,30 +3196,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: sse4_2 (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_ssl",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: ssl (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_sspi",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: sspi (from target Qt6::Network)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -3634,18 +3334,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_system_proxies",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: system_proxies (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_system_zlib",
 			"properties" : 
 			[
@@ -3766,18 +3454,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_topleveldomain",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: topleveldomain (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_translation",
 			"properties" : 
 			[
@@ -3808,18 +3484,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: trivial_auto_var_init_pattern (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_udpsocket",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: udpsocket (from target Qt6::Network)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -4042,18 +3706,6 @@
 			"value" : "/opt/homebrew/lib/cmake/Qt6Core"
 		},
 		{
-			"name" : "Qt6Network_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt6Network."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/opt/homebrew/lib/cmake/Qt6Network"
-		},
-		{
 			"name" : "Qt6_DIR",
 			"properties" : 
 			[
@@ -4078,7 +3730,7 @@
 			"value" : "/usr/local"
 		},
 		{
-			"name" : "client_BINARY_DIR",
+			"name" : "server_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -4087,10 +3739,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alexey/client/build/unknown_f8dfd7-Debug"
+			"value" : "/Users/alexey/server/build/unknown_f8dfd7-Debug"
 		},
 		{
-			"name" : "client_IS_TOP_LEVEL",
+			"name" : "server_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -4102,7 +3754,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "client_SOURCE_DIR",
+			"name" : "server_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -4111,7 +3763,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alexey/client"
+			"value" : "/Users/alexey/server"
 		}
 	],
 	"kind" : "cache",

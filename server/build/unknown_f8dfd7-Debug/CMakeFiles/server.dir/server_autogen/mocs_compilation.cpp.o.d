@@ -2,8 +2,8 @@ CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: \
   /Users/alexey/server/build/unknown_f8dfd7-Debug/server_autogen/mocs_compilation.cpp \
   /Users/alexey/server/build/unknown_f8dfd7-Debug/server_autogen/EWIEGA46WW/moc_server.cpp \
   /Users/alexey/server/build/unknown_f8dfd7-Debug/server_autogen/EWIEGA46WW/../../../../server.h \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpServer \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpserver.h \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
   /opt/homebrew/include/QtCore/qglobal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/type_traits \
@@ -575,6 +575,9 @@ CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtCore/qversiontagging.h \
   /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
+  /opt/homebrew/include/QtNetwork/qabstractsocket.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
+  /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qobject.h \
   /opt/homebrew/include/QtCore/qobjectdefs.h \
   /opt/homebrew/include/QtCore/qnamespace.h \
@@ -1044,7 +1047,6 @@ CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtCore/qscopedpointer.h \
   /opt/homebrew/include/QtCore/qmetatype.h \
   /opt/homebrew/include/QtCore/qdatastream.h \
-  /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qfloat16.h \
   /opt/homebrew/include/QtCore/qmath.h \
   /opt/homebrew/include/QtCore/qiterable.h \
@@ -1075,8 +1077,6 @@ CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/forward_list \
-  /opt/homebrew/include/QtNetwork/qabstractsocket.h \
-  /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qdebug.h \
   /opt/homebrew/include/QtCore/qtextstream.h \
   /opt/homebrew/include/QtCore/qcontiguouscache.h \
@@ -1089,10 +1089,10 @@ CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtCore/qhash.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
   /opt/homebrew/include/QtNetwork/qhostaddress.h \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/q23utility.h \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpServer \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpserver.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
   /opt/homebrew/include/QtCore/qtmochelpers.h

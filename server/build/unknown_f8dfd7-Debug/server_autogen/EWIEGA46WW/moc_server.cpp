@@ -43,7 +43,7 @@ static constexpr auto qt_meta_stringdata_ZN6ServerE = QtMocHelpers::stringData(
     "qintptr",
     "socketDescriptor",
     "slotReadyRead",
-    "clientDisconnected"
+    "slotClientDisonnected"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -63,9 +63,9 @@ Q_CONSTINIT static const uint qt_meta_data_ZN6ServerE[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   32,    2, 0x0a,    1 /* Public */,
-       5,    0,   35,    2, 0x0a,    3 /* Public */,
-       6,    0,   36,    2, 0x0a,    4 /* Public */,
+       1,    1,   32,    2, 0x08,    1 /* Private */,
+       5,    0,   35,    2, 0x08,    3 /* Private */,
+       6,    0,   36,    2, 0x08,    4 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -89,7 +89,7 @@ Q_CONSTINIT const QMetaObject Server::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<qintptr, std::false_type>,
         // method 'slotReadyRead'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'clientDisconnected'
+        // method 'slotClientDisonnected'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -102,7 +102,7 @@ void Server::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         switch (_id) {
         case 0: _t->incomingConnection((*reinterpret_cast< std::add_pointer_t<qintptr>>(_a[1]))); break;
         case 1: _t->slotReadyRead(); break;
-        case 2: _t->clientDisconnected(); break;
+        case 2: _t->slotClientDisonnected(); break;
         default: ;
         }
     }

@@ -1088,17 +1088,17 @@ CMakeFiles/server.dir/main.cpp.o: /Users/alexey/server/main.cpp \
   /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
   /opt/homebrew/include/QtCore/qcoreapplication.h \
   /Users/alexey/server/server.h \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpServer \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpserver.h \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
   /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
   /opt/homebrew/include/QtNetwork/qabstractsocket.h \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtNetwork/qhostaddress.h \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/q23utility.h \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpServer \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpserver.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h

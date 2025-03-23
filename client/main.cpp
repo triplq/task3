@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     Client client;
     client.connectToServer("127.0.0.1", 8080);
 
-    client.sendToServer("Hello! Its ur client!");
+    client.sendToServer("Hello! Im ur client!");
 
     return a.exec();
 }

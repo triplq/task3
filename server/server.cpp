@@ -3,47 +3,56 @@
 Server::Server()
 {
     if(!this->listen(QHostAddress::Any, 8080))
-        qDebug() << "Error\n";
+        qDebug() << "Not listening\n";
 
     else
-        qDebug() << "Server is listening\n";
+        qDebug() << "Server is listnening\n";
 }
 
 void Server::incomingConnection(qintptr socketDescriptor)
 {
     QTcpSocket *socket = new QTcpSocket(this);
-
     socket->setSocketDescriptor(socketDescriptor);
 
     connect(socket, &QTcpSocket::readyRead, this, &Server::slotReadyRead);
-    connect(socket, &QTcpSocket::disconnected, this, &Server::clientDisconnected);
+    connect(socket, &QTcpSocket::disconnected, this, &Server::slotClientDisonnected);
+
+    if(socket)
+        qDebug() << "Connected\n";
+
+    else
+        qDebug() << "Not connected";
+
+    for(auto& socket : sockets)
+    {
+        socket->write("One more client is connected");
+    }
 
     sockets.append(socket);
-    qDebug() << "Client is connected\n";
 }
 
 void Server::slotReadyRead()
 {
     QTcpSocket *socket = qobject_cast<QTcpSocket*>(sender());
+    if(socket)
+    {
+        QByteArray data = socket->readAll();
 
-    if(!socket)
-        return;
+        qDebug() << "Message from client: " << data.toStdString() << '\n';
 
-    QByteArray data = socket->readAll();
-    qDebug() << "Message from client: " << data << '\n';
-
-    socket->write(QString("Message is delivered").toUtf8());
+        socket->write("Message is captured");
+    }
 }
 
-void Server::clientDisconnected()
+void Server::slotClientDisonnected()
 {
     QTcpSocket *socket = qobject_cast<QTcpSocket*>(sender());
-
-    if(!socket)
-        return;
 
     sockets.removeOne(socket);
     socket->deleteLater();
 
-    qDebug() << "Client is disconnected\n";
+    for(auto& socket : sockets)
+    {
+        socket->write("One client is disconnected");
+    }
 }
